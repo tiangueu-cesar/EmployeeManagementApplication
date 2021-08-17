@@ -1,0 +1,24 @@
+<h3> View Employee Details !</h3>
+
+<div class="container">
+    <div>
+       <label for=""><b> Image: </b></label>
+      <img [src]="employee.imageUrl" alt="{{ employee.name }}" width="50px" class="img-fluid rounded-circle w-5" style="margin-left: 10px;">
+    </div>
+    <div>
+      <label for="name"><b> Full Name: </b></label>
+        {{ employee.name }}
+    </div>
+    <div>
+      <label for="email"><b> Email: </b></label>
+      {{ employee.email }}
+    </div>
+    <div>
+      <label for="jobTitle"><b> Job Title: </b></label>
+      {{ employee.jobTitle }}
+    </div>
+    <div>
+      <label for="jobTitle"><b> Phone Number: </b></label>
+      {{ employee.phone }}
+    </div>
+</div>
